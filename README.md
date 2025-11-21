@@ -1,77 +1,98 @@
-Project Overview
+Employee Leave & Salary Management System (ServiceNow)
+📌 1. Project Overview
 
-This project is an integrated Employee Leave and Salary Management System designed for corporate environments using ServiceNow.
-It automates the workflows related to employee leave requests, approvals, salary computation, and payroll generation while ensuring accuracy and policy compliance.
+A ServiceNow-based system designed to automate employee leave workflows, salary structure configuration, payroll generation, and reporting in a corporate environment.
 
-Objective
+🎯 2. Objective
 
-To develop a centralized system that simplifies:
+Develop a centralized platform that streamlines:
 
-Leave application and approval
+Leave application & approval
 
 Leave balance tracking
 
-Salary component configuration
+Salary calculation (basic, allowances, deductions)
 
-Monthly payroll generation
+Monthly payroll automation
 
-Salary slip creation
+Salary slip generation
 
-Reporting and analytics
-All built using ServiceNow tables, UI, Flow Designer, and access controls.
+HR & finance reporting
 
-Scope
+📚 3. Scope
 
-Manage leave requests and approval workflows
+End-to-end leave management
 
-Track leave entitlements and balances
+Salary structure configuration
 
-Configure salary structures per employee
+Payroll processing
 
-Automate monthly payroll and salary slip generation
+Salary slip generation
 
-Provide HR/Finance reports
+Role-based access control
 
-Implement role-based access control
+ServiceNow workflows & automation
 
-Functional Requirements
+🛠️ 4. Functional Requirements
+✔ Leave Management
 
-Submit, approve, and process leave requests
+Apply, review, and approve leave
 
-Track leave balances and leave history
+Track balances and leave history
 
-Configure salary components (basic, allowances, deductions)
+✔ Payroll Management
 
-Automatically process monthly payroll
+Configure employee salary components
 
-Generate salary slips
+Auto-generate monthly payroll
 
-Produce HR and Finance reports
+Generate & store salary slips
 
-Tech Stack
+✔ Reporting
 
-ServiceNow Platform
+HR & Finance analytics
 
-Flow Designer
+Payroll history
 
-Business Rules
+🔐 5. Non-Functional Requirements
 
-Custom Tables
+Secure & scalable
 
-Access Control Lists (ACLs)
+Role-based access (Employee, Manager, HR)
 
-Service Portal (optional UI)
+Policy compliant
 
- Outcome
+User-friendly UI
 
-Automation of HR processes
+Integration ready (tax/accounting systems)
 
-Reduction in payroll and leave errors
+🧩 6. System Design
+📄 6.1 Data Model (Tables)
+Table Name	Purpose
+Employee Profile	Stores employee details
+Leave Requests	Manages leave workflow
+Leave Balance	Tracks leave availability
+Salary Structure	Defines salary components
+Payroll Records	Stores monthly salary data
+Salary Slips	Generates salary documents
+Departments	Categorizes employees
+Payroll Configuration	Stores payroll rules
+🏗️ 7. Architecture Overview (optional section)
 
-Centralized employee management
+(Add later if needed)
 
-Faster approval cycles
+🚀 8. Features
 
-Accurate salary computations
+Automated workflows
 
-Role-based secure access
+Accurate salary computation
+
+Zero manual errors
+
+Easy approval flow
+
+Secure access controls
+
+📌 9. Conclusion
+
+A fully automated ServiceNow solution that enhances efficiency in HR operations, ensures accurate payroll processing, and provides centralized employee management.
